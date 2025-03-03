@@ -5,7 +5,7 @@ const sgMail = require("@sendgrid/mail");
 const validateUploadTime = require("../middleware/uploadMiddleware");
 sgMail.setApiKey(process.env.SENDGRID_API_KEY); // Replace with your SendGrid API key
 
-router.post("/send-otp", validateUploadTime, async (req, res) => {
+router.post("/send-otp", async (req, res) => {
   try {
     const { email, otp } = req.body;
 
