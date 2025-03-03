@@ -199,6 +199,9 @@ const AudioRecorder = () => {
               <h1 className="upload-card__title">
                 {t("audio.secure_audio_upload")}
               </h1>
+
+<p className="upload-card__user">
+user can upload audios on 2pm to 7pm IST only </p>
               <p className="upload-card__user">
                 {t("audio.logged_in_as")}: {user?.email}
               </p>
