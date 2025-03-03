@@ -15,7 +15,7 @@ const handleErrors = (res, error) => {
     message: error.message,
   });
 };
-router.post("/send-otp", async (req, res) => {
+router.post("/send-otp",validateUploadTime, async (req, res) => {
   const { email } = req.body;
 
   if (!email || !/\S+@\S+\.\S+/.test(email)) {
