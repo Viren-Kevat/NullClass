@@ -74,7 +74,6 @@ const AudioList = ({ userEmail }) => {
         }/api/audio/delete-audio/${audioId}`,
         {
           method: "DELETE",
-          credentials: "include",
         }
       );
 
