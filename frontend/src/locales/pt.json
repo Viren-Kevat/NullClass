@@ -1,0 +1,151 @@
+{"welcome": "Bem-vindo",
+  "login": {
+    "title": "Entrar",
+    "email_or_username": "E-mail ou Nome de Usuário",
+    "password": "Senha",
+    "log_in": "Entrar",
+    "forgot_password": "Esqueceu a senha?",
+    "continue_with_google": "Continuar com o Google",
+    "no_account": "Não tem uma conta?",
+    "sign_up": "Cadastre-se",
+    "invalid_credentials": "E-mail ou senha inválidos.",
+    "google_login_failed": "Falha no login com o Google"
+  },
+  "signup": {
+    "create_account": "Criar Conta",
+    "display_name": "Nome de Exibição",
+    "username": "Nome de Usuário",
+    "email": "E-mail",
+    "password": "Senha",
+    "sign_up": "Cadastre-se",
+    "sign_up_google": "Cadastre-se com o Google",
+    "already_have_account": "Já tem uma conta?",
+    "log_in": "Entrar",
+    "username_title": "Apenas letras, números e sublinhados"
+    ,"bio": "Biografia",
+    "location": "Localização",
+    "website": "Site"
+  },
+  "forgot_password": {
+    "title": "Esqueceu a Senha",
+    "email_or_phone": "E-mail ou Telefone",
+    "send_reset_link": "Enviar Link de Redefinição",
+    "back_to_login": "Voltar para o Login",
+    "generate_secure_password": "Gerar Senha Segura",
+    "password_copied": "Senha copiada para a área de transferência",
+    "password_updated": "Senha atualizada com sucesso",
+    "update_failed": "Falha ao atualizar a senha",
+    "request_limit": "Você pode solicitar a redefinição de senha apenas uma vez a cada 24 horas.",
+    "enter_email_or_phone": "Por favor, insira seu e-mail ou telefone.",
+    "invalid_format": "Formato de e-mail ou telefone inválido.",
+    "reset_link_sent": "Link de redefinição enviado para {{emailOrPhone}}",
+    "verification_code_sent": "Código de verificação enviado para seu telefone."
+  },
+  "errors": {
+    "registration_failed": "Falha no registro. Por favor, tente novamente.",
+    "google_signin_failed": "Falha no login com o Google"
+  },
+  "navbar": {
+    "home": "Início",
+    "explore": "Explorar",
+    "notifications": "Notificações",
+    "messages": "Mensagens",
+    "bookmarks": "Favoritos",
+    "lists": "Listas",
+    "profile": "Perfil",
+    "more": "Mais",
+    "recordAudio": "Gravar Áudio",
+    "subscription": "Assinaturas"
+  },
+  "tweet": {
+    "placeholder": "O que está acontecendo?",
+    "image_placeholder": "Insira a URL da imagem",
+    "add_media": "Adicionar mídia",
+    "add_poll": "Adicionar enquete",
+    "add_emoji": "Adicionar emoji",
+    "schedule_tweet": "Agendar tweet",
+    "post": "Tweetar",
+    "error_empty_message": "A mensagem do tweet não pode estar vazia.",
+    "error_exceeds_characters": "O tweet excede o limite máximo de {{max}} caracteres.",
+    "error_invalid_image_url": "URL de imagem inválida.",
+    "error_failed_post": "Falha ao postar tweet."
+  },
+  "profile": {
+    "no_user_data": "Nenhum dado de usuário disponível",
+    "tweets": "Tweets",
+    "no_bio": "Nenhuma biografia disponível",
+    "no_location": "Nenhuma localização disponível",
+    "no_website": "Nenhum site disponível",
+    "no_dob": "Nenhuma data de nascimento disponível",
+    "verified": "Verificado",
+    "not_verified": "Não verificado",
+    "following": "Seguindo",
+    "followers": "Seguidores"
+  },
+  "post": {
+    "retweeted_by": "Retweetado por",
+    "ago": "atrás",
+    "media_alt": "Mídia do post"
+  },
+  "messages": {
+    "title": "Mensagens",
+    "search_placeholder": "Buscar mensagens"
+  },
+  "widgets": {
+    "search_placeholder": "Pesquisar no Twitter",
+    "heading": "O que está acontecendo",
+    "trending_category_programming": "Programação",
+    "trending_category_technology": "Tecnologia",
+    "posts": "{{count}} Publicações",
+    "show_more": "Mostrar mais"
+  },
+  "common": {
+    "loading": "Carregando..."
+  },
+"audio":{
+    "secure_upload_verification": "Verificação de upload seguro",
+    "otp_sent_to": "Enviamos um código de 6 dígitos para",
+    "verify_upload": "Verificar e carregar",
+    "resend_in": "Reenviar em",
+    "resend_code": "Reenviar código",
+    "secure_audio_upload": "Upload de áudio seguro",
+    "logged_in_as": "Conectado como",
+    "choose_audio_file": "Escolher arquivo de áudio",
+    "no_email_found": "Nenhum e-mail encontrado para o usuário conectado.",
+    "otp_sent": "OTP enviado para seu e-mail.",
+    "otp_failed": "Falha ao enviar OTP.",
+    "error_sending_otp": "Erro ao enviar OTP.",
+    "invalid_otp": "OTP inválido",
+    "error_verifying_otp": "Erro ao verificar OTP.",
+    "no_file_selected": "Nenhum arquivo selecionado!",
+    "audio_uploaded": "Áudio carregado com sucesso:",
+    "file_uploaded": "Arquivo carregado com sucesso!",
+    "upload_failed": "Falha no upload!",
+    "error_uploading_audio": "Erro ao carregar áudio:",
+    "error_uploading_file": "Erro ao carregar arquivo!",
+    "loading": "Carregando..."
+},"subscription": {
+    "page_title": "Planos de Assinatura - Seu Clone do Twitter",
+    "choose_plan": "Escolha Seu Plano",
+    "upgrade_experience": "Melhore sua experiência com nossas opções de assinatura flexíveis",
+    "all_plans_include": "Todos os planos incluem:",
+    "basic_analytics": "Análises básicas",
+    "profile_customization": "Personalização de perfil",
+    "support": "Suporte 24/7",
+    "most_popular": "Mais Popular",
+  "unlimited_tweets": "Tweets ilimitados",
+  "tweets_per_day": "tweets/dia",
+  "free_forever": "Grátis para sempre",
+  "per_month": "por mês",
+  "get_started": "Começar",
+  "subscribe_now": "Assine agora",
+  "log_in_to_subscribe": "Por favor, faça login para se inscrever.",
+  "free_plan_activated": "Plano gratuito ativado com sucesso!",
+  "error_updating_subscription": "Erro ao atualizar a assinatura. Por favor, tente novamente.",
+  "payment_verification_failed": "Falha na verificação do pagamento. Por favor, tente novamente.",
+  "payment_successful": "Pagamento bem-sucedido! Assinatura ativada.",
+  "error_confirming_payment": "Erro ao confirmar o pagamento. Por favor, entre em contato com o suporte.",
+  "payment_failed": "O pagamento falhou. Por favor, tente novamente."
+
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "login": {
+    "title": "Log In",
+    "email_or_username": "Email or Username",
+    "password": "Password",
+    "log_in": "Log In",
+    "forgot_password": "Forgot Password?",
+    "continue_with_google": "Continue with Google",
+    "no_account": "Don't have an account?",
+    "sign_up": "Sign Up",
+    "invalid_credentials": "Invalid email or password.",
+    "google_login_failed": "Google login failed"
+  },
+  "signup": {
+    "create_account": "Create Account",
+    "display_name": "Display Name",
+    "username": "Username",
+    "email": "Email",
+    "password": "Password",
+    "sign_up": "Sign Up",
+    "sign_up_google": "Sign up with Google",
+    "already_have_account": "Already have an account?",
+    "log_in": "Log In",
+    "username_title": "Letters, numbers and underscores only"
+    ,"bio": "Bio",
+    "location": "Location",
+    "website": "Website"
+  },
+  "forgot_password": {
+    "title": "Forgot Password",
+    "email_or_phone": "Email or Phone",
+    "send_reset_link": "Send Reset Link",
+    "back_to_login": "Back to Login",
+    "generate_secure_password": "Generate Secure Password",
+    "password_copied": "Password copied to clipboard",
+    "password_updated": "Password updated successfully",
+    "update_failed": "Failed to update password",
+    "request_limit": "You can only request a password reset once every 24 hours.",
+    "enter_email_or_phone": "Please enter your email or phone number.",
+    "invalid_format": "Invalid email or phone number format.",
+    "reset_link_sent": "Password reset link sent to {{emailOrPhone}}",
+    "verification_code_sent": "Verification code sent to your phone."
+  },
+  "errors": {
+    "registration_failed": "Registration failed. Please try again.",
+    "google_signin_failed": "Google sign-in failed"
+  },
+  "navbar": {
+    "home": "Home",
+    "explore": "Explore",
+    "notifications": "Notifications",
+    "messages": "Messages",
+    "bookmarks": "Bookmarks",
+    "lists": "Lists",
+    "profile": "Profile",
+    "recordAudio": "recordAudio",
+    "more": "More",
+    "subscription": "Subscriptions"
+  },
+  "tweet": {
+    "placeholder": "What's happening?",
+    "image_placeholder": "Enter image URL",
+    "add_media": "Add media",
+    "add_poll": "Add poll",
+    "add_emoji": "Add emoji",
+    "schedule_tweet": "Schedule tweet",
+    "post": "Tweet",
+    "error_empty_message": "Tweet message cannot be empty.",
+    "error_exceeds_characters": "Tweet exceeds the maximum character limit of {{max}}.",
+    "error_invalid_image_url": "Invalid image URL.",
+    "error_failed_post": "Failed to post tweet."
+  },
+  "profile": {
+    "no_user_data": "No user data available",
+    "tweets": "Tweets",
+    "no_bio": "No bio available",
+    "no_location": "No location available",
+    "no_website": "No website available",
+    "no_dob": "No date of birth available",
+    "verified": "Verified",
+    "not_verified": "Not verified",
+    "following": "Following",
+    "followers": "Followers"
+  },
+  "post": {
+    "retweeted_by": "Retweeted by",
+    "ago": "ago",
+    "media_alt": "Post media"
+  },
+  "messages": {
+    "title": "Messages",
+    "search_placeholder": "Search messages"
+  },
+  "widgets": {
+    "search_placeholder": "Search Twitter",
+    "heading": "What's happening",
+    "trending_category_programming": "Programming",
+    "trending_category_technology": "Technology",
+    "posts": "{{count}} Posts",
+    "show_more": "Show more"
+  },
+  "common": {
+    "loading": "Loading..."
+  },
+  "audio":{
+  "secure_upload_verification": "Secure Upload Verification",
+  "otp_sent_to": "We've sent a 6-digit code to",
+  "verify_upload": "Verify & Upload",
+  "resend_in": "Resend in",
+  "resend_code": "Resend Code",
+  "secure_audio_upload": "Secure Audio Upload",
+  "logged_in_as": "Logged in as",
+  "choose_audio_file": "Choose Audio File",
+  "no_email_found": "No email found for the logged-in user.",
+  "otp_sent": "OTP sent to your email.",
+  "otp_failed": "Failed to send OTP.",
+  "error_sending_otp": "Error sending OTP.",
+  "invalid_otp": "Invalid OTP",
+  "error_verifying_otp": "Error verifying OTP.",
+  "no_file_selected": "No file selected!",
+  "audio_uploaded": "Audio uploaded successfully:",
+  "file_uploaded": "File uploaded successfully!",
+  "upload_failed": "Upload failed!",
+  "error_uploading_audio": "Error uploading audio:",
+  "error_uploading_file": "Error uploading file!"
+}, "subscription": {
+  "page_title": "Subscription Plans - Your Twitter Clone",
+  "choose_plan": "Choose Your Plan",
+  "upgrade_experience": "Upgrade your experience with our flexible subscription options",
+  "all_plans_include": "All plans include:",
+  "basic_analytics": "Basic analytics",
+  "profile_customization": "Profile customization",
+  "support": "24/7 Support",
+  "most_popular": "Most Popular",
+  "unlimited_tweets": "Unlimited tweets",
+  "tweets_per_day": "tweets/day",
+  "free_forever": "Free Forever",
+  "per_month": "per month",
+  "get_started": "Get Started",
+  "subscribe_now": "Subscribe Now",
+  "log_in_to_subscribe": "Please log in to subscribe.",
+  "free_plan_activated": "Free plan activated successfully!",
+  "error_updating_subscription": "Error updating subscription. Please try again.",
+  "payment_verification_failed": "Payment verification failed. Please try again.",
+  "payment_successful": "Payment Successful! Subscription activated.",
+  "error_confirming_payment": "Error confirming payment. Please contact support.",
+  "payment_failed": "Payment failed. Please try again."
+
+}}

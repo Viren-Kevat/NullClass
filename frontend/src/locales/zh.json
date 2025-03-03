@@ -1,0 +1,151 @@
+{"welcome": "欢迎",
+  "login": {
+    "title": "登录",
+    "email_or_username": "邮箱或用户名",
+    "password": "密码",
+    "log_in": "登录",
+    "forgot_password": "忘记密码？",
+    "continue_with_google": "使用 Google 登录",
+    "no_account": "没有账户？",
+    "sign_up": "注册",
+    "invalid_credentials": "邮箱或密码无效。",
+    "google_login_failed": "Google 登录失败"
+  },
+  "signup": {
+    "create_account": "创建账户",
+    "display_name": "显示名称",
+    "username": "用户名",
+    "email": "邮箱",
+    "password": "密码",
+    "sign_up": "注册",
+    "sign_up_google": "使用 Google 注册",
+    "already_have_account": "已经有账户？",
+    "log_in": "登录",
+    "username_title": "仅限字母、数字和下划线"
+    ,"bio": "简介",
+    "location": "位置",
+    "website": "网站"
+  },
+  "forgot_password": {
+    "title": "忘记密码",
+    "email_or_phone": "邮箱或手机号",
+    "send_reset_link": "发送重置链接",
+    "back_to_login": "返回登录",
+    "generate_secure_password": "生成安全密码",
+    "password_copied": "密码已复制到剪贴板",
+    "password_updated": "密码更新成功",
+    "update_failed": "密码更新失败",
+    "request_limit": "每 24 小时只能请求一次密码重置。",
+    "enter_email_or_phone": "请输入您的邮箱或手机号。",
+    "invalid_format": "邮箱或手机号格式无效。",
+    "reset_link_sent": "密码重置链接已发送到 {{emailOrPhone}}",
+    "verification_code_sent": "验证码已发送到您的手机。"
+  },
+  "errors": {
+    "registration_failed": "注册失败，请重试。",
+    "google_signin_failed": "Google 登录失败"
+  },
+  "navbar": {
+    "home": "主页",
+    "explore": "探索",
+    "notifications": "通知",
+    "messages": "消息",
+    "bookmarks": "书签",
+    "lists": "列表",
+    "profile": "个人资料",
+    "recordAudio": "录音",
+    "more": "更多",
+    "subscription": "订阅"
+  },
+  "tweet": {
+    "placeholder": "发生了什么？",
+    "image_placeholder": "输入图片 URL",
+    "add_media": "添加媒体",
+    "add_poll": "添加投票",
+    "add_emoji": "添加表情",
+    "schedule_tweet": "定时发送",
+    "post": "发布",
+    "error_empty_message": "推文内容不能为空。",
+    "error_exceeds_characters": "推文超过最大字符限制 {{max}}。",
+    "error_invalid_image_url": "无效的图片 URL。",
+    "error_failed_post": "推文发布失败。"
+  },
+  "profile": {
+    "no_user_data": "无用户数据",
+    "tweets": "推文",
+    "no_bio": "没有个人简介",
+    "no_location": "没有位置信息",
+    "no_website": "没有网站信息",
+    "no_dob": "没有生日信息",
+    "verified": "已验证",
+    "not_verified": "未验证",
+    "following": "关注",
+    "followers": "粉丝"
+  },
+  "post": {
+    "retweeted_by": "转推自",
+    "ago": "前",
+    "media_alt": "帖子媒体"
+  },
+  "messages": {
+    "title": "消息",
+    "search_placeholder": "搜索消息"
+  },
+  "widgets": {
+    "search_placeholder": "搜索 Twitter",
+    "heading": "热点新闻",
+    "trending_category_programming": "编程",
+    "trending_category_technology": "科技",
+    "posts": "{{count}} 篇帖子",
+    "show_more": "显示更多"
+  },
+  "common": {
+    "loading": "加载中..."
+  },
+  "audio": {
+    "secure_upload_verification": "安全上传验证",
+    "otp_sent_to": "我们已发送一个6位数的代码到",
+    "verify_upload": "验证并上传",
+    "resend_in": "重新发送",
+    "resend_code": "重新发送代码",
+    "secure_audio_upload": "安全音频上传",
+    "logged_in_as": "登录为",
+    "choose_audio_file": "选择音频文件",
+    "no_email_found": "未找到登录用户的电子邮件。",
+    "otp_sent": "OTP已发送到您的电子邮件。",
+    "otp_failed": "发送OTP失败。",
+    "error_sending_otp": "发送OTP时出错。",
+    "invalid_otp": "无效的OTP",
+    "error_verifying_otp": "验证OTP时出错。",
+    "no_file_selected": "未选择文件！",
+    "audio_uploaded": "音频上传成功：",
+    "file_uploaded": "文件上传成功！",
+    "upload_failed": "上传失败！",
+    "error_uploading_audio": "上传音频时出错：",
+    "error_uploading_file": "上传文件时出错！",
+    "loading": "加载中..."
+  },"subscription": {
+    "page_title": "订阅计划 - 你的推特克隆",
+    "choose_plan": "选择你的计划",
+    "upgrade_experience": "通过我们的灵活订阅选项升级您的体验",
+    "all_plans_include": "所有计划包括：",
+    "basic_analytics": "基本分析",
+    "profile_customization": "个人资料定制",
+    "support": "24/7 支持",
+    "most_popular": "最受欢迎",
+  "unlimited_tweets": "无限推文",
+  "tweets_per_day": "推文/天",
+  "free_forever": "永久免费",
+  "per_month": "每月",
+  "get_started": "开始",
+  "subscribe_now": "立即订阅",
+  "log_in_to_subscribe": "请登录以订阅。",
+  "free_plan_activated": "免费计划已成功激活！",
+  "error_updating_subscription": "更新订阅时出错。请再试一次。",
+  "payment_verification_failed": "付款验证失败。请再试一次。",
+  "payment_successful": "付款成功！订阅已激活。",
+  "error_confirming_payment": "确认付款时出错。请联系支持。",
+  "payment_failed": "付款失败。请再试一次。"
+
+  }
+}

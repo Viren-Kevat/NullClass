@@ -1,0 +1,151 @@
+{"welcome": "Bienvenue",
+  "login": {
+    "title": "Connexion",
+    "email_or_username": "Email ou Nom d'utilisateur",
+    "password": "Mot de passe",
+    "log_in": "Se connecter",
+    "forgot_password": "Mot de passe oublié ?",
+    "continue_with_google": "Continuer avec Google",
+    "no_account": "Vous n'avez pas de compte ?",
+    "sign_up": "S'inscrire",
+    "invalid_credentials": "Email ou mot de passe invalide.",
+    "google_login_failed": "Échec de la connexion avec Google"
+  },
+  "signup": {
+    "create_account": "Créer un compte",
+    "display_name": "Nom d'affichage",
+    "username": "Nom d'utilisateur",
+    "email": "Email",
+    "password": "Mot de passe",
+    "sign_up": "S'inscrire",
+    "sign_up_google": "S'inscrire avec Google",
+    "already_have_account": "Vous avez déjà un compte ?",
+    "log_in": "Se connecter",
+    "username_title": "Lettres, chiffres et tirets bas uniquement"
+    ,"bio": "Biographie",
+    "location": "Emplacement",
+    "website": "Site web"
+  },
+  "forgot_password": {
+    "title": "Mot de passe oublié",
+    "email_or_phone": "Email ou Téléphone",
+    "send_reset_link": "Envoyer le lien de réinitialisation",
+    "back_to_login": "Retour à la connexion",
+    "generate_secure_password": "Générer un mot de passe sécurisé",
+    "password_copied": "Mot de passe copié dans le presse-papiers",
+    "password_updated": "Mot de passe mis à jour avec succès",
+    "update_failed": "Échec de la mise à jour du mot de passe",
+    "request_limit": "Vous ne pouvez demander une réinitialisation qu'une fois toutes les 24 heures.",
+    "enter_email_or_phone": "Veuillez entrer votre email ou numéro de téléphone.",
+    "invalid_format": "Format d'email ou de numéro de téléphone invalide.",
+    "reset_link_sent": "Lien de réinitialisation envoyé à {{emailOrPhone}}",
+    "verification_code_sent": "Code de vérification envoyé à votre téléphone."
+  },
+  "errors": {
+    "registration_failed": "Échec de l'inscription. Veuillez réessayer.",
+    "google_signin_failed": "Échec de la connexion avec Google"
+  },
+  "navbar": {
+    "home": "Accueil",
+    "explore": "Explorer",
+    "notifications": "Notifications",
+    "messages": "Messages",
+    "bookmarks": "Signets",
+    "lists": "Listes",
+    "profile": "Profil",
+    "recordAudio": "Enregistrer Audio",
+    "more": "Plus",
+    "subscription": "Abonnements"
+  },
+  "tweet": {
+    "placeholder": "Que se passe-t-il ?",
+    "image_placeholder": "Entrez l'URL de l'image",
+    "add_media": "Ajouter un média",
+    "add_poll": "Ajouter un sondage",
+    "add_emoji": "Ajouter un emoji",
+    "schedule_tweet": "Programmer un tweet",
+    "post": "Tweeter",
+    "error_empty_message": "Le message du tweet ne peut pas être vide.",
+    "error_exceeds_characters": "Le tweet dépasse la limite maximale de {{max}} caractères.",
+    "error_invalid_image_url": "URL d'image invalide.",
+    "error_failed_post": "Échec de la publication du tweet."
+  },
+  "profile": {
+    "no_user_data": "Aucune donnée utilisateur disponible",
+    "tweets": "Tweets",
+    "no_bio": "Aucune biographie disponible",
+    "no_location": "Aucune localisation disponible",
+    "no_website": "Aucun site web disponible",
+    "no_dob": "Aucune date de naissance disponible",
+    "verified": "Vérifié",
+    "not_verified": "Non vérifié",
+    "following": "Abonnements",
+    "followers": "Abonnés"
+  },
+  "post": {
+    "retweeted_by": "Retweeté par",
+    "ago": "il y a",
+    "media_alt": "Média du post"
+  },
+  "messages": {
+    "title": "Messages",
+    "search_placeholder": "Rechercher des messages"
+  },
+  "widgets": {
+    "search_placeholder": "Rechercher sur Twitter",
+    "heading": "Ce qui se passe",
+    "trending_category_programming": "Programmation",
+    "trending_category_technology": "Technologie",
+    "posts": "{{count}} Publications",
+    "show_more": "Voir plus"
+  },
+  "common": {
+    "loading": "Chargement..."
+  },
+  "audio":{
+    "secure_upload_verification": "Vérification de téléchargement sécurisé",
+    "otp_sent_to": "Nous avons envoyé un code à 6 chiffres à",
+    "verify_upload": "Vérifier et télécharger",
+    "resend_in": "Renvoyer dans",
+    "resend_code": "Renvoyer le code",
+    "secure_audio_upload": "Téléchargement audio sécurisé",
+    "logged_in_as": "Connecté en tant que",
+    "choose_audio_file": "Choisir un fichier audio",
+    "no_email_found": "Aucun email trouvé pour l'utilisateur connecté.",
+    "otp_sent": "OTP envoyé à votre email.",
+    "otp_failed": "Échec de l'envoi de l'OTP.",
+    "error_sending_otp": "Erreur lors de l'envoi de l'OTP.",
+    "invalid_otp": "OTP invalide",
+    "error_verifying_otp": "Erreur de vérification de l'OTP.",
+    "no_file_selected": "Aucun fichier sélectionné!",
+    "audio_uploaded": "Audio téléchargé avec succès:",
+    "file_uploaded": "Fichier téléchargé avec succès!",
+    "upload_failed": "Échec du téléchargement!",
+    "error_uploading_audio": "Erreur de téléchargement audio:",
+    "error_uploading_file": "Erreur de téléchargement du fichier!",
+    "loading": "Chargement..."
+   },"subscription": {
+    "page_title": "Plans d'Abonnement - Votre Clone de Twitter",
+    "choose_plan": "Choisissez Votre Plan",
+    "upgrade_experience": "Améliorez votre expérience avec nos options d'abonnement flexibles",
+    "all_plans_include": "Tous les plans incluent :",
+    "basic_analytics": "Analyses de base",
+    "profile_customization": "Personnalisation du profil",
+    "support": "Support 24/7",
+    "most_popular": "Le Plus Populaire",
+  "unlimited_tweets": "Tweets illimités",
+  "tweets_per_day": "tweets/jour",
+  "free_forever": "Gratuit pour toujours",
+  "per_month": "par mois",
+  "get_started": "Commencer",
+  "subscribe_now": "S'abonner maintenant",
+  "log_in_to_subscribe": "Veuillez vous connecter pour vous abonner.",
+  "free_plan_activated": "Plan gratuit activé avec succès!",
+  "error_updating_subscription": "Erreur lors de la mise à jour de l'abonnement. Veuillez réessayer.",
+  "payment_verification_failed": "La vérification du paiement a échoué. Veuillez réessayer.",
+  "payment_successful": "Paiement réussi! Abonnement activé.",
+  "error_confirming_payment": "Erreur lors de la confirmation du paiement. Veuillez contacter le support.",
+  "payment_failed": "Le paiement a échoué. Veuillez réessayer."
+
+  }
+  }

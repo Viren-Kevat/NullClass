@@ -1,0 +1,289 @@
+/* LanguageSwitcher.css */
+:root {
+  --twitter-blue: #1d9bf0;
+  --twitter-blue-hover: #1991e6;
+  --twitter-text: #0f1419;
+  --twitter-secondary-text: #536471;
+  --twitter-border: #eff3f4;
+  --twitter-background: #ffffff;
+  --twitter-hover-bg: #f7f9f9;
+  --twitter-modal-bg: rgba(0, 0, 0, 0.4);
+  --twitter-input-bg: #eff3f4;
+  --twitter-checkmark: #1d9bf0;
+  --twitter-red: #f4212e;
+  --transition: all 0.2s cubic-bezier(0.08, 0.52, 0.52, 1);
+}
+
+.language-switcher {
+  position: relative;
+  width: 300px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  font-size: 15px;
+  color: var(--twitter-text);
+}
+
+/* Dropdown Trigger */
+.switcher-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  border: 1px solid var(--twitter-border);
+  border-radius: 8px;
+  background: var(--twitter-background);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.switcher-header:hover {
+  background-color: var(--twitter-hover-bg);
+}
+
+.current-language {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.flag {
+  font-size: 20px;
+}
+
+.name {
+  font-weight: 700;
+}
+
+.dropdown-indicator {
+  color: var(--twitter-secondary-text);
+  transition: transform 0.2s ease;
+}
+
+.dropdown-indicator.open {
+  transform: rotate(180deg);
+}
+
+/* Language Dropdown */
+.language-dropdown {
+  position: absolute;
+  width: 100%;
+  margin-top: 8px;
+  background: var(--twitter-background);
+  border: 1px solid var(--twitter-border);
+  border-radius: 16px;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  z-index: 1000;
+}
+
+.search-container {
+  padding: 12px;
+  border-bottom: 1px solid var(--twitter-border);
+}
+
+.search-input {
+  width: 100%;
+  padding: 12px;
+  background: var(--twitter-input-bg);
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  color: var(--twitter-text);
+}
+
+.search-input::placeholder {
+  color: var(--twitter-secondary-text);
+}
+
+.search-input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--twitter-blue);
+}
+
+.language-list {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+/* Language Items */
+.language-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.language-item:hover {
+  background: var(--twitter-hover-bg);
+}
+
+.language-item.selected {
+  background: rgba(29, 155, 240, 0.1);
+}
+
+.checkmark {
+  margin-left: auto;
+  color: var(--twitter-checkmark);
+  font-weight: 700;
+}
+
+/* OTP Modal */
+.otp-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000;
+}
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--twitter-modal-bg);
+  backdrop-filter: blur(6px);
+}
+
+.modal-content {
+  position: relative;
+  background: var(--twitter-background);
+  border-radius: 16px;
+  width: 90%;
+  max-width: 400px;
+  overflow: hidden;
+  animation: modalScale 0.2s ease-out;
+}
+
+@keyframes modalScale {
+  from {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.modal-header {
+  padding: 16px;
+  border-bottom: 1px solid var(--twitter-border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-header h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  color: var(--twitter-secondary-text);
+  padding: 8px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.close-btn:hover {
+  background: var(--twitter-hover-bg);
+  color: var(--twitter-text);
+}
+
+.modal-body {
+  padding: 16px;
+}
+
+.modal-body p {
+  margin: 0 0 16px;
+  color: var(--twitter-secondary-text);
+}
+
+.otp-input {
+  width: 100%;
+  padding: 14px;
+  border: 2px solid var(--twitter-border);
+  border-radius: 8px;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 4px;
+  font-weight: 500;
+  color: var(--twitter-text);
+  transition: var(--transition);
+}
+
+.otp-input:focus {
+  border-color: var(--twitter-blue);
+  outline: none;
+}
+
+.modal-footer {
+  padding: 16px;
+  border-top: 1px solid var(--twitter-border);
+  display: flex;
+  gap: 12px;
+  justify-content: flex-end;
+}
+
+.verify-btn {
+  background: var(--twitter-blue);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 24px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.verify-btn:hover {
+  background: var(--twitter-blue-hover);
+}
+
+.cancel-btn {
+  background: transparent;
+  color: var(--twitter-text);
+  border: 1px solid var(--twitter-border);
+  padding: 12px 24px;
+  border-radius: 24px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.cancel-btn:hover {
+  background: var(--twitter-hover-bg);
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 500px) {
+  .language-switcher {
+    width: 100%;
+  }
+
+  .modal-content {
+    width: 95%;
+  }
+
+  .modal-footer {
+    flex-direction: column-reverse;
+  }
+
+  .verify-btn,
+  .cancel-btn {
+    width: 100%;
+    text-align: center;
+  }
+}

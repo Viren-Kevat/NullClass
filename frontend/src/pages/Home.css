@@ -1,0 +1,124 @@
+/* Home.css */
+:root {
+  --sidebar-width: 275px;
+  --widgets-width: 350px;
+  --container-max-width: 1300px;
+  --grid-gap: 1.5rem;
+}
+
+/* Layout container */
+.home {
+  display: grid;
+  grid-template-columns: var(--sidebar-width) 1fr var(--widgets-width);
+  grid-template-areas: "sidebar feed widgets";
+  gap: var(--grid-gap);
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  min-height: 100vh;
+  padding: 1rem;
+  /* color: #15202b; */
+}
+
+/* Grid areas */
+.home__sidebar {
+  grid-area: sidebar;
+  position: sticky;
+  top: 1rem;
+  height: calc(100vh - 2rem);
+  width: 117px;
+}
+
+.home__feed {
+  grid-area: feed;
+  min-width: 0; /* Prevent overflow */
+  /* color: #15202b; */
+}
+
+.home__widgets {
+  grid-area: widgets;
+  position: sticky;
+  top: 1rem;
+  height: calc(100vh - 2rem);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .home {
+    grid-template-columns: var(--sidebar-width) 1fr;
+    grid-template-areas: "sidebar feed";
+  }
+
+  .home__widgets {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .home {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "feed"
+      "sidebar";
+    padding: 0;
+  }
+
+  .home__sidebar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    top: auto;
+    z-index: 100;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .home__feed {
+    margin-bottom: 80px; /* Space for mobile sidebar */
+  }
+}
+
+/* Dark mode variables */
+[data-theme="dark"] .home {
+  background: #15202b;
+  color: #e7e9ea;
+}
+/* Subscription Status in Sidebar */
+.subscription-status {
+  padding: 15px;
+  margin: 10px;
+  border-radius: 12px;
+  background: var(--bg-secondary);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Tweet Editor Container */
+.tweet-editor-container {
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 12px;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Upgrade CTA in Widgets */
+.upgrade-cta {
+  padding: 15px;
+  background: #f8f9fa;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.upgrade-button {
+  background: #1da1f2;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.upgrade-button:hover {
+  background: #1991db;
+}

@@ -1,0 +1,288 @@
+/* ================ CSS Variables ================ */
+:root {
+  /* Colors */
+  --twitter-blue: #1d9bf0;
+  --twitter-blue-hover: #1a8cd8;
+  --twitter-red: #e0245e;
+  --twitter-light-gray: #e7e7e8;
+  --twitter-gray-text: #536471;
+  --twitter-background: #ffffff;
+  --twitter-border: #eff3f4;
+  --twitter-hover-bg: #f5f5f5;
+  --twitter-blue-active: #1991da;
+
+  /* Spacing */
+  --base-spacing: 1rem;
+  --element-padding: 0.75rem 1rem;
+
+  /* Transitions */
+  --transition-fast: 0.15s ease-in-out;
+  --transition-normal: 0.2s ease-in-out;
+
+  /* Shadows */
+  --box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --box-shadow-elevated: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* ================ Base Styles ================ */
+body {
+  font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, "Roboto",
+    sans-serif;
+  background-color: var(--twitter-background);
+  color: #0f1419;
+}
+
+/* ================ Sidebar Layout ================ */
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 275px;
+  padding: 0 calc(var(--base-spacing) * 0.75);
+  background-color: var(--twitter-background);
+  border-right: 1px solid var(--twitter-border);
+  display: flex;
+  flex-direction: column;
+  z-index: 1000;
+  transition: width var(--transition-fast);
+}
+
+/* Sidebar Elements */
+.sidebar__twitterIcon {
+  color: var(--twitter-blue);
+  margin: var(--base-spacing) 0;
+  padding: var(--base-spacing);
+  align-self: flex-start;
+  border-radius: 50%;
+  transition: background-color var(--transition-fast),
+    transform var(--transition-fast);
+}
+
+.sidebar__tweet {
+  background-color: var(--twitter-blue);
+  color: white;
+  border: none;
+  border-radius: 9999px;
+  padding: var(--element-padding);
+  font-weight: 700;
+  margin: var(--base-spacing) 0;
+  cursor: pointer;
+  transition: background-color var(--transition-fast),
+    transform var(--transition-fast);
+}
+
+/* Navigation Links */
+.nav-link {
+  display: flex;
+  align-items: center;
+  padding: var(--element-padding);
+  border-radius: 9999px;
+  transition: background-color var(--transition-fast),
+    color var(--transition-fast);
+}
+
+.active-link {
+  color: var(--twitter-blue);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.inactive-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Profile Section */
+.profile_info {
+  display: flex;
+  align-items: center;
+  gap: var(--base-spacing);
+  padding: var(--element-padding);
+  /* margin-top: auto; */
+  border-radius: 9999px;
+  transition: background-color var(--transition-fast);
+}
+
+.user-info h4 {
+  margin: 0;
+  font-size: 0.9375rem;
+}
+.user-info h5 {
+  margin: 0;
+  color: var(--twitter-gray-text);
+}
+
+/* ================ Audio Recorder ================ */
+.audio-recorder-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: grid;
+  place-items: center;
+  z-index: 2000;
+}
+
+.audio-recorder-content {
+  background: var(--twitter-background);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  width: min(90%, 500px);
+  box-shadow: var(--box-shadow-elevated);
+}
+
+.recording-indicator {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--twitter-blue);
+  margin: 1rem 0;
+}
+
+.recording-dot {
+  width: 0.75rem;
+  height: 0.75rem;
+  background: var(--twitter-red);
+  border-radius: 50%;
+  animation: pulse 1.5s infinite;
+}
+
+/* Update Audio Recorder Colors */
+.record-button {
+  background: var(--twitter-blue);
+  color: white !important;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.record-button.recording {
+  background: var(--twitter-blue-hover);
+  transform: scale(1.1);
+}
+
+.record-button:hover {
+  background: var(--twitter-blue-hover);
+}
+
+.recording-dot {
+  background: var(--twitter-blue);
+  animation: pulse-blue 1.5s infinite;
+}
+
+@keyframes pulse-blue {
+  0%,
+  100% {
+    opacity: 1;
+    background: var(--twitter-blue);
+  }
+  50% {
+    opacity: 0.5;
+    background: var(--twitter-blue-hover);
+  }
+}
+
+.audio-error {
+  color: var(--twitter-blue);
+  background: rgba(29, 155, 240, 0.1);
+}
+
+.progress-bar {
+  background: var(--twitter-blue);
+}
+
+.record-button:active {
+  background: var(--twitter-blue-active);
+}
+
+/* ================ Mobile Layout ================ */
+.mobile-bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background-color: var(--twitter-background);
+  border-top: 1px solid var(--twitter-border);
+  display: none; /* Hidden by default */
+  justify-content: space-around;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* ================ Responsive Design ================ */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 5.5rem;
+    align-items: center;
+  }
+
+  .sidebar__tweet {
+    padding: 1rem;
+    width: 3.125rem;
+    height: 3.125rem;
+  }
+
+  .profile_info .user-info {
+    display: none;
+  }
+  .mobile-bottom-nav {
+    display: flex;
+  }
+}
+
+@media (max-width: 480px) {
+  .audio-recorder-content {
+    border-radius: 1rem 1rem 0 0;
+    width: 100%;
+  }
+}
+
+/* ================ Animations ================ */
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+/* ================ Utility Classes ================ */
+.scale-hover {
+  transition: transform var(--transition-fast);
+  :is(&):hover {
+    transform: scale(1.05);
+  }
+}
+
+.smooth-transition {
+  transition: all var(--transition-normal);
+}
+
+/* ================ Component Overrides ================ */
+.MuiMenu-paper {
+  border-radius: 1rem !important;
+  box-shadow: var(--box-shadow-elevated) !important;
+  min-width: 18.75rem !important;
+}
+
+.MuiMenuItem-root {
+  padding: var(--element-padding) !important;
+  font-family: inherit !important;
+  :is(&):hover {
+    background-color: var(--twitter-hover-bg) !important;
+  }
+}
+
+.MuiAvatar-root {
+  width: 2.5rem !important;
+  height: 2.5rem !important;
+}

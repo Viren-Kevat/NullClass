@@ -1,0 +1,151 @@
+{"welcome": "Bienvenido",
+    "login": {
+      "title": "Iniciar sesión",
+      "email_or_username": "Correo electrónico o nombre de usuario",
+      "password": "Contraseña",
+      "log_in": "Iniciar sesión",
+      "forgot_password": "¿Olvidaste tu contraseña?",
+      "continue_with_google": "Continuar con Google",
+      "no_account": "¿No tienes una cuenta?",
+      "sign_up": "Regístrate",
+      "invalid_credentials": "Correo electrónico o contraseña inválidos.",
+      "google_login_failed": "Error al iniciar sesión con Google"
+    },
+    "signup": {
+      "create_account": "Crear cuenta",
+      "display_name": "Nombre para mostrar",
+      "username": "Nombre de usuario",
+      "email": "Correo electrónico",
+      "password": "Contraseña",
+      "sign_up": "Regístrate",
+      "sign_up_google": "Regístrate con Google",
+      "already_have_account": "¿Ya tienes una cuenta?",
+      "log_in": "Iniciar sesión",
+      "username_title": "Solo letras, números y guiones bajos",
+      "bio": "Biografía",
+    "location": "Ubicación",
+    "website": "Sitio web"
+    },
+    "forgot_password": {
+      "title": "Olvidé mi contraseña",
+      "email_or_phone": "Correo electrónico o teléfono",
+      "send_reset_link": "Enviar enlace de restablecimiento",
+      "back_to_login": "Volver a iniciar sesión",
+      "generate_secure_password": "Generar contraseña segura",
+      "password_copied": "Contraseña copiada al portapapeles",
+      "password_updated": "Contraseña actualizada con éxito",
+      "update_failed": "Error al actualizar la contraseña",
+      "request_limit": "Solo puedes solicitar un restablecimiento de contraseña una vez cada 24 horas.",
+      "enter_email_or_phone": "Por favor, introduce tu correo electrónico o teléfono.",
+      "invalid_format": "Formato de correo electrónico o teléfono inválido.",
+      "reset_link_sent": "Enlace de restablecimiento enviado a {{emailOrPhone}}",
+      "verification_code_sent": "Código de verificación enviado a tu teléfono."
+    },
+    "errors": {
+      "registration_failed": "Error en el registro. Por favor, intenta de nuevo.",
+      "google_signin_failed": "Error al iniciar sesión con Google"
+    },
+    "navbar": {
+      "home": "Inicio",
+      "explore": "Explorar",
+      "notifications": "Notificaciones",
+      "messages": "Mensajes",
+      "bookmarks": "Marcadores",
+      "lists": "Listas",
+      "profile": "Perfil",
+      "recordAudio": "Grabar Audio",
+      "more": "Más",
+      "subscription": "Suscripciones"
+}
+    ,
+    "tweet": {
+      "placeholder": "¿Qué está pasando?",
+      "image_placeholder": "Introducir URL de imagen",
+      "add_media": "Agregar multimedia",
+      "add_poll": "Agregar encuesta",
+      "add_emoji": "Agregar emoji",
+      "schedule_tweet": "Programar tweet",
+      "post": "Tweet",
+      "error_empty_message": "El tweet no puede estar vacío.",
+      "error_exceeds_characters": "El tweet supera el límite máximo de caracteres de {{max}}.",
+      "error_invalid_image_url": "URL de imagen inválida.",
+      "error_failed_post": "Error al publicar el tweet."
+    },
+    "profile": {
+      "no_user_data": "No hay datos de usuario disponibles",
+      "tweets": "Tweets",
+      "no_bio": "No hay biografía disponible",
+      "no_location": "No hay ubicación disponible",
+      "no_website": "No hay sitio web disponible",
+      "no_dob": "No hay fecha de nacimiento disponible",
+      "verified": "Verificado",
+      "not_verified": "No verificado",
+      "following": "Siguiendo",
+      "followers": "Seguidores"
+    },
+    "post": {
+      "retweeted_by": "Retwitteado por",
+      "ago": "hace",
+      "media_alt": "Multimedia de la publicación"
+    },
+    "messages": {
+      "title": "Mensajes",
+      "search_placeholder": "Buscar mensajes"
+    },
+    "widgets": {
+      "search_placeholder": "Buscar en Twitter",
+      "heading": "Qué está pasando",
+      "trending_category_programming": "Programación",
+      "trending_category_technology": "Tecnología",
+      "posts": "{{count}} Publicaciones",
+      "show_more": "Mostrar más"
+    },
+    "common": {
+      "loading": "Cargando..."
+    },
+    "audio":{
+    "secure_upload_verification": "Verificación de carga segura",
+    "otp_sent_to": "Hemos enviado un código de 6 dígitos a",
+    "verify_upload": "Verificar y cargar",
+    "resend_in": "Reenviar en",
+    "resend_code": "Reenviar código",
+    "secure_audio_upload": "Carga de audio segura",
+    "logged_in_as": "Conectado como",
+    "choose_audio_file": "Elegir archivo de audio",
+    "no_email_found": "No se encontró correo electrónico para el usuario conectado.",
+    "otp_sent": "OTP enviado a su correo electrónico.",
+    "otp_failed": "Error al enviar OTP.",
+    "error_sending_otp": "Error al enviar OTP.",
+    "invalid_otp": "OTP inválido",
+    "error_verifying_otp": "Error al verificar OTP.",
+    "no_file_selected": "¡No se seleccionó ningún archivo!",
+    "audio_uploaded": "Audio cargado con éxito:",
+    "file_uploaded": "¡Archivo cargado con éxito!",
+    "upload_failed": "¡Error al cargar!",
+    "error_uploading_audio": "Error al cargar audio:",
+    "error_uploading_file": "¡Error al cargar archivo!"
+  },"subscription": {
+    "page_title": "Planes de Suscripción - Tu Clon de Twitter",
+    "choose_plan": "Elige Tu Plan",
+    "upgrade_experience": "Mejora tu experiencia con nuestras opciones de suscripción flexibles",
+    "all_plans_include": "Todos los planes incluyen:",
+    "basic_analytics": "Análisis básicos",
+    "profile_customization": "Personalización del perfil",
+    "support": "Soporte 24/7",
+    "most_popular": "Más Popular",
+  "unlimited_tweets": "Tweets ilimitados",
+  "tweets_per_day": "tweets/día",
+  "free_forever": "Gratis para siempre",
+  "per_month": "por mes",
+  "get_started": "Comenzar",
+  "subscribe_now": "Suscribirse ahora",
+  "log_in_to_subscribe": "Por favor, inicie sesión para suscribirse.",
+  "free_plan_activated": "¡Plan gratuito activado con éxito!",
+  "error_updating_subscription": "Error al actualizar la suscripción. Por favor, inténtelo de nuevo.",
+  "payment_verification_failed": "La verificación del pago falló. Por favor, inténtelo de nuevo.",
+  "payment_successful": "¡Pago exitoso! Suscripción activada.",
+  "error_confirming_payment": "Error al confirmar el pago. Por favor, contacte con el soporte.",
+  "payment_failed": "El pago falló. Por favor, inténtelo de nuevo."
+
+  }
+}
