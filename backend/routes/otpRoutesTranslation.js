@@ -2,10 +2,10 @@ const express = require("express");
 const router = express.Router();
 const sgMail = require("@sendgrid/mail");
 // New endpoint to send OTP for translation
-
+const validateUploadTime = require("../middleware/uploadMiddleware");
 sgMail.setApiKey(process.env.SENDGRID_API_KEY); // Replace with your SendGrid API key
 
-router.post("/send-otp", async (req, res) => {
+router.post("/send-otp", validateUploadTime, async (req, res) => {
   try {
     const { email, otp } = req.body;
 

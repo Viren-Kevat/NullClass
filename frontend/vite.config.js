@@ -15,13 +15,4 @@ export default defineConfig({
     chunkSizeWarningLimit: 500, // Suppresses large chunk warnings
     sourcemap: true, // Enables source maps for better debugging
   },
-  server: {
-    proxy: {
-      "/api": {
-        target: "https://null-class-five.vercel.app",
-        changeOrigin: true,
-        rewrite: (path) => path.replace(/^\/api/, ""),
-      },
-    },
-  },
 });
