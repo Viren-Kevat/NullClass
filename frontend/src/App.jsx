@@ -86,8 +86,8 @@ function App() {
             <h1>{t("welcome")}</h1>
             <Routes>
               <Route path="/home" element={<Home />} />
-              <Route path="/signup" element={<Signup />} />
-              <Route path="/" element={<Login />} />
+              <Route path="/" element={<Signup />} />
+              <Route path="/signup" element={<Login />} />
               <Route path="/bookmarks" element={<Bookmark data={tweets} />} />
               <Route path="/explore" element={<Explore />} />
               <Route path="/messages" element={<Message />} />
