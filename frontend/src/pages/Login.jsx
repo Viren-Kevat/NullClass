@@ -30,34 +30,7 @@ const Login = () => {
     e.preventDefault();
     try {
       await loginWithGoogle();
-      const userData = {
-        uid: firebaseUser.user.uid,
-        displayName: firebaseUser.user.displayName,
-        username: firebaseUser.user.displayName
-          .toLowerCase()
-          .replace(/[^a-zA-Z0-9_]/g, ""),
-        email: firebaseUser.user.email.toLowerCase(),
-        Contact: "",
-        bio: "",
-        location: "",
-        website: "",
-        dob: "",
-        avatar:
-          firebaseUser.user.photoURL ||
-          "https://example.com/default-avatar.jpg",
-      };
 
-      const response = await fetch(
-        `${import.meta.env.VITE_API_BASE_URL}/api/auth/register`,
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(userData),
-        }
-      );
-      const data = await response.json();
       navigate("/home");
     } catch (error) {
       setError(t("login.google_login_failed"));
