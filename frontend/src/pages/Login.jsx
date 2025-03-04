@@ -99,7 +99,7 @@ const Login = () => {
         </div>
 
         <div className="signup-link">
-          {t("login.no_account")} <Link to="/signup">{t("login.sign_up")}</Link>
+          {t("login.no_account")} <Link to="/">{t("login.sign_up")}</Link>
         </div>
       </div>
     </div>
